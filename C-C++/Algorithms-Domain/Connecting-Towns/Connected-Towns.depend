@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1426542443 source:c:\users\cameron\documents\hacker rank\general\connected towns\main.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<stdlib.h>
+
