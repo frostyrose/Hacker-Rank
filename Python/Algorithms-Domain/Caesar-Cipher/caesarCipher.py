@@ -2,13 +2,13 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 def updateChar(char, increment):
     charVal = ord(char)
-    if charVal > 90: #LowerCase
-        if(charVal+increment > 122):
+    if charVal > ord('Z'): #LowerCase
+        if(charVal+increment > ord('z')):
             return chr(charVal+increment-26)
         else:
             return chr(charVal+increment)
     else:
-        if(charVal+increment > 90):
+        if(charVal+increment > ord('Z')):
             return chr(charVal+increment-26)
         else:
             return chr(charVal+increment)
